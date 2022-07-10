@@ -1,0 +1,28 @@
+{
+  "name": "guardme",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "git@github.com:hicaru/guardme.git",
+  "author": "Rinat <lich666black@gmail.com>",
+  "license": "GPL",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "rollup": "^2.76.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "sass": "^1.53.0",
+    "svelte": "^3.49.0",
+    "svelte-check": "^2.8.0",
+    "svelte-preprocess": "^4.10.7",
+    "svelte-preprocess-sass": "^2.0.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  }
+}

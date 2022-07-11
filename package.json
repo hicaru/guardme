@@ -4,7 +4,8 @@
   "main": "index.ts",
   "repository": "git@github.com:hicaru/guardme.git",
   "author": "Rinat <lich666black@gmail.com>",
-  "license": "GPL",
+  "license": "GPL-3.0",
+  "private": false,
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
